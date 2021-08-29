@@ -5,6 +5,8 @@
 * SpringBoot
 * Java8
 
+* Can run the App in any IDE like IntelliJ OR by using `./gradlew bootRun` at root of the project.
+
 ## Gradle Commands to use from root of the project
 * Build Project : `./gradlew clean build`
 * Run the jar to launch App with `java -jar  build/libs/reverse-0.0.1-SNAPSHOT.jar`
