@@ -9,7 +9,7 @@
 * Build Project : `./gradlew clean build`
 * Run the jar to launch App with `java -jar  build/libs/reverse-0.0.1-SNAPSHOT.jar`
 
-#### Docker Image Creation steps from root of the project. There are two ways we can create images. Use any one of them. 
+### Docker Image Creation steps from root of the project. There are two ways we can create images. Use any one of them. 
 1. Build without `Dockerfile`. Requires Docker Daemon should be running on System
     * Run `./gradlew clean build`
     * Run `./gradlew jibDockerBuild --image=latest/reverse-0.0.1` to create the image.
